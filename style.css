@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root {
-    --vermelho-claro: #d00000;
+    --laranja: #ff4800;
     --cor-de-fundo: #161A1D;
     --fundo-senha: #242B30;
     --fundo-texto: #242B30;
-    --borda: #d00000;
+    --borda: #ff4800;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -15,7 +15,7 @@
 }
 
 body {
-    color: var(--vermelho-claro);
+    color: var(--laranja);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
@@ -44,7 +44,7 @@ body {
 #campo-senha {
     background-color: var(--fundo-senha);
     border: none;
-    color: var(--vermelho-claro);
+    color: var(--laranja);
     font-family: var(--roboto-mono);
     font-size: 40px;
     width: 70%;
@@ -93,7 +93,7 @@ body {
 
 .parametro-senha__botao {
     background-color: var(--fundo-texto);
-    color: var(--vermelho-claro);
+    color: var(--laranja);
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
@@ -130,7 +130,7 @@ label {
     bottom: 30px;
 }
 
-.fraca {
+.baixa {
     width: 25%;
     background-color: #E71B32;
 }
@@ -140,7 +140,7 @@ label {
     width: 50%;
 }
 
-.forte {
+.alta {
     background-color: #00FF85;
     width: 100%;
 }
@@ -149,7 +149,6 @@ label {
     display: flex;
     justify-content: space-between;
 }
-
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
